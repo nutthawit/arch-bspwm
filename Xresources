@@ -1,0 +1,2 @@
+! Limit the cursor size to no scale more than 100%
+Xft.dpi: 96
