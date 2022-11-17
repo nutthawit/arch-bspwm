@@ -33,7 +33,6 @@ if [[ $TEST_CMD == 3 ]]; then
   # if external monitor is connected 
   bspc monitor eDP -d I II III IV V
   bspc monitor HDMI-A-0 -d VI VII VIII IX X
-  bspc rule -a firefox desktop='^7'
   bspc rule -a Google-chrome desktop='^7'
   bspc rule -a jetbrains-pycharm desktop='^8'
   bspc rule -a jetbrains-webstorm desktop='^8'
@@ -41,7 +40,6 @@ if [[ $TEST_CMD == 3 ]]; then
   bspc rule -a TelegramDesktop desktop='^5'
 else
   bspc monitor eDP -d I II III IV V VI VII VIII IX X
-  bspc rule -a firefox desktop='^2'
   bspc rule -a Google-chrome desktop='^2'
   bspc rule -a jetbrains-pycharm desktop='^3'
   bspc rule -a jetbrains-webstorm desktop='^3'
