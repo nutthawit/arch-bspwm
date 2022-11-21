@@ -8,3 +8,4 @@
 | config-ext.ini| ~/.config/polybar/config-ext.ini      | 755           |
 | launch.sh     | ~/.config/polybar/launch.sh           | 755           |
 | terminalrc    | ~/.config/xfce4/terminal/terminalrc   | 644           |
+| init.vim      | ~/.config/nvim/init.vim               | 644           |
