@@ -31,20 +31,24 @@ bspc config focus_follows_pointer true
 TEST_CMD=$(xrandr --listmonitors | wc -l)
 if [[ $TEST_CMD == 3 ]]; then
   # if external monitor is connected 
-  bspc monitor HDMI-A-0 -d 1 2 3 4 5
-  bspc monitor eDP -d 6 7 8 9 10
+  bspc monitor HDMI-A-0 -d 1 2 3 4 5 6 7 8 9
+  bspc monitor eDP -d 10
   bspc rule -a Google-chrome desktop='2'
   bspc rule -a jetbrains-pycharm desktop='3'
   bspc rule -a jetbrains-webstorm desktop='3'
   bspc rule -a Code desktop='3'
+  bspc rule -a Thunar desktop='4'
   bspc rule -a TelegramDesktop desktop='5'
+  bspc rule -a firefox desktop='7'
 else
   bspc monitor eDP -d 1 2 3 4 5 6 7 8 9 10
   bspc rule -a Google-chrome desktop='2'
   bspc rule -a jetbrains-pycharm desktop='3'
   bspc rule -a jetbrains-webstorm desktop='3'
   bspc rule -a Code desktop='3'
+  bspc rule -a Thunar desktop='4'
   bspc rule -a TelegramDesktop desktop='5'
+  bspc rule -a firefox desktop='7'
 fi
 
 
