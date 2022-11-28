@@ -1,1 +1,1 @@
--model pc105 -layout us,th -variant ,tis -option grp:shifts_toggle
+-model pc105 -layout us,th -variant ,tis -option grp:shifts_toggle -option caps:swapescape
